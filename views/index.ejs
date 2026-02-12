@@ -33,8 +33,8 @@
           <% files.forEach(function(val){ %>
             <div class="task w-72 px-3 py-4 bg-zinc-800 rounded-md">
               <h1 class="text-white text-3xl tracking-tighter">
-              Hello
-              <a class="text-blue-500 block text-xs mt-3" href="">Read more</a>
+              <%= val %>
+              <a class="text-blue-500 block text-xs mt-3" href="/files/<%=val%>">Read more</a>
               </h1>
             </div>
             <% }) %>
